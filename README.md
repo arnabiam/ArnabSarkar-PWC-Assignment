@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
 
+## Installation Steps Involves : - 
+
+1) git clone https://github.com/arnabiam/ArnabSarkar-PWC-Assignment.git
+2) open the folder in your directory.
+3) First type - npm install & ng build ( for building the application )
+4) Now to Run the application locally use the cli command - 
+
+----------     ng serve   ------------
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
