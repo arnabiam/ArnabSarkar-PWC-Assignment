@@ -2,7 +2,6 @@
   <mat-toolbar-row>
     <span
       style="color: azure"
-      mat-raised-button
       routerLink=""
       routerLinkActive="active"
       [routerLinkActiveOptions]="{ exact: true }"
@@ -11,7 +10,6 @@
     >
     <span
       style="color: azure"
-      mat-raised-button
       routerLink="/aboutUs"
       routerLinkActive="active"
       [routerLinkActiveOptions]="{ exact: true }"
@@ -20,27 +18,21 @@
     >
     <span
       style="color: azure"
-      mat-raised-button
       routerLink="/contact"
       routerLinkActive="active"
       [routerLinkActiveOptions]="{ exact: true }"
     >
-      Contact |</span
-    >
+      Contact |</span>
     <span class="example-spacer"></span>
     <span class="example-spacer"></span>
     <a
       style="color: azure"
       style="margin-left: 10%"
-      mat-raised-button
       routerLinkActive="active"
       [routerLinkActiveOptions]="{ exact: true }"
     >
       {{ date | date : "dd-MM-yyyy" }}
     </a>
-    <!-- <div style="width:500px; text-align: right;">
-        <a style="color: azure;" style="margin-left: 80%" mat-raised-button routerLink="active" routerLinkActive="active" [routerLinkActiveOptions]="{exact : true}"> 28-February-2023 </a>
-      </div> -->
   </mat-toolbar-row>
 </mat-toolbar>
 
